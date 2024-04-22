@@ -34,8 +34,7 @@ type TConfig = {
     about: Required<TSection>;
     experience: TSection;
     works: Required<TSection>;
-    projects: Required<TSection>;
-    feedback: TSection;
+    feedbacks: TSection;
   };
 };
 
