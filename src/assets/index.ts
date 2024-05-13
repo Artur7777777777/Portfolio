@@ -27,14 +27,8 @@ import it_global_comsulting from './company/IT_Global_Consulting.jpg';
 import software_mind from './company/software_mind_logo.jpg';
 import similarweb from './company/similarweb_logo.jpg';
 
-import carrent from './carrent.png';
-import jobit from './jobit.png';
-import tripguide from './tripguide.png';
-
 import memorialkepper from './memorialkeeper.png';
-import gohomegps from './go_home_gps.png';
 import petpals from './petpals.png';
-import orange from './Orange.png';
 import huzatech from './huzatech.png';
 import littlespoon from './little_spoon.png';
 import mercari from './mercari.png';
@@ -65,15 +59,10 @@ export {
   it_global_comsulting,
   similarweb,
   software_mind,
-  carrent,
-  jobit,
-  tripguide,
   angular,
   vue,
   memorialkepper,
-  gohomegps,
   petpals,
-  orange,
   huzatech,
   littlespoon,
   mercari,
