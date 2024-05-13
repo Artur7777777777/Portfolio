@@ -23,9 +23,9 @@ import tailwind from './tech/tailwind.png';
 import typescript from './tech/typescript.png';
 import threejs from './tech/threejs.svg';
 
-import it_global_comsulting from './company/IT_Global_Consulting.jpg';
-import software_mind from './company/software_mind_logo.jpg';
-import similarweb from './company/similarweb_logo.jpg';
+import symfa_logo from './company/symfa_global_logo.jpg';
+import bluesoft_logo from './company/bluesoft_logo.jpg';
+import biggle_logo from './company/bigglojpg.jpg';
 
 import memorialkepper from './memorialkeeper.png';
 import petpals from './petpals.png';
@@ -56,9 +56,9 @@ export {
   tailwind,
   typescript,
   threejs,
-  it_global_comsulting,
-  similarweb,
-  software_mind,
+  symfa_logo,
+  bluesoft_logo,
+  biggle_logo,
   angular,
   vue,
   memorialkepper,

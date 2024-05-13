@@ -25,9 +25,9 @@ import {
   figma,
   docker,
   threejs,
-  it_global_comsulting,
-  software_mind,
-  similarweb,
+  biggle_logo,
+  symfa_logo,
+  bluesoft_logo,
   memorialkepper,
   petpals,
   weenfr,
@@ -132,10 +132,10 @@ const technologies: TTechnology[] = [
 const experiences: TExperience[] = [
   {
     title: 'Web Developer',
-    companyName: 'SimilarWeb',
-    icon: similarweb,
+    companyName: 'Biggle',
+    icon: biggle_logo,
     iconBg: '#383E56',
-    date: 'March 2014 - April 2016',
+    date: 'May 2013 - Feb 2017',
     points: [
       'Maintained high-level experience in React, Angular and state management strategies, including Redux and NgRx.',
       'Incorporated chat libraries like Chart.js and D3.js to visualize investment data and analytics.',
@@ -145,10 +145,10 @@ const experiences: TExperience[] = [
   },
   {
     title: 'Frontend Developer',
-    companyName: 'Software Mind',
-    icon: software_mind,
+    companyName: 'BlueSoft',
+    icon: bluesoft_logo,
     iconBg: '#E6DEDD',
-    date: 'May 2016 - Feb 2021',
+    date: 'Feb 2017 - Aug 2022',
     points: [
       'Designed dynamic and multi-browser compatible pages using HTML5, CSS3, SASS, React.js, and Angular.',
       'Collaborated with cross-functional teams including designers, backend developers, and product managers to define project requirements and deliverables.',
@@ -158,10 +158,10 @@ const experiences: TExperience[] = [
   },
   {
     title: 'Full Stack Developer',
-    companyName: 'IT Global Consulting',
-    icon: it_global_comsulting,
+    companyName: 'Symfa',
+    icon: symfa_logo,
     iconBg: '#383E56',
-    date: 'April 2021 - March 2024',
+    date: 'Aug 2022 - Apr 2024',
     points: [
       'Led collaborative efforts in designing, developing, and deploying fullstack web applications using React, Angular, Vue.js for the frontend, and Node.js, .Net for the backend.',
       'Implemented secure authentication and authorization with ASP.NET Identity while optimizing SQL Server databases using Entity Framework Core for performance and data integrity.',
