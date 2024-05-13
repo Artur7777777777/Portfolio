@@ -21,28 +21,50 @@ const emailjsConfig = {
 
 const Contact = () => {
   const formRef = useRef<React.LegacyRef<HTMLFormElement> | undefined>();
+
+  const [errors, setErrors] = useState<{ [key: string]: string }>({});
   const [form, setForm] = useState(INITIAL_STATE);
   const [loading, setLoading] = useState(false);
+
+  const isValidEmail = (email: string): boolean => {
+    // Add your email validation logic here
+    return /\S+@\S+\.\S+/.test(email);
+  };
 
   const handleChange = (
     e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement> | undefined
   ) => {
     if (e === undefined) return;
     const { name, value } = e.target;
+
+    const newErrors = { ...errors };
+    if (name === 'email' && !isValidEmail(value)) {
+      newErrors[name] = 'Please enter a valid email address.';
+    } else {
+      delete newErrors[name];
+    }
+
     setForm({ ...form, [name]: value });
+    setErrors(newErrors);
   };
 
   const handleSubmit = (e: React.FormEvent<HTMLFormElement> | undefined) => {
     if (e === undefined) return;
     e.preventDefault();
+
+    const newErrors = { ...errors };
+    Object.keys(form).forEach(key => {
+      if (form[key].trim() === '') {
+        newErrors[key] = 'This field is required.';
+      }
+    });
+
+    if (Object.keys(newErrors).length > 0) {
+      setErrors(newErrors);
+      return;
+    }
+
     setLoading(true);
-    // setTimeout(() => {
-    //   alert('Thank you. I will get back to you as soon as possible.');
-    //   setLoading(false);
-    // }, 2000);
-
-    console.log(emailjsConfig);
-
     emailjs
       .send(
         emailjsConfig.serviceId,
@@ -103,6 +125,7 @@ const Contact = () => {
                   className="bg-tertiary placeholder:text-secondary rounded-lg border-none px-6 py-4 font-medium text-white outline-none"
                   {...(input === 'message' && { rows: 7 })}
                 />
+                {errors[input] && <span className="text-red-500">{errors[input]}</span>}
               </label>
             );
           })}
