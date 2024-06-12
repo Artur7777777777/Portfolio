@@ -23,9 +23,10 @@ import tailwind from './tech/tailwind.png';
 import typescript from './tech/typescript.png';
 import threejs from './tech/threejs.svg';
 
-import symfa_logo from './company/symfa_global_logo.jpg';
-import bluesoft_logo from './company/bluesoft_logo.jpg';
-import biggle_logo from './company/bigglojpg.jpg';
+import athens_technology_center_logo from './company/athens_technology_center_logo.jpg';
+import Illumine_IT_Consulting from './company/Illumine_IT_Consulting.jpg';
+import initiative_crm_france_logo from './company/initiative_crm_france_logo.jpg';
+import InTTrust from './company/InTTrust.jpg';
 
 import memorialkepper from './memorialkeeper.png';
 import petpals from './petpals.png';
@@ -56,9 +57,10 @@ export {
   tailwind,
   typescript,
   threejs,
-  symfa_logo,
-  bluesoft_logo,
-  biggle_logo,
+  InTTrust,
+  athens_technology_center_logo,
+  Illumine_IT_Consulting,
+  initiative_crm_france_logo,
   angular,
   vue,
   memorialkepper,

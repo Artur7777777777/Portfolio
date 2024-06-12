@@ -25,9 +25,10 @@ import {
   figma,
   docker,
   threejs,
-  biggle_logo,
-  symfa_logo,
-  bluesoft_logo,
+  InTTrust,
+  athens_technology_center_logo,
+  Illumine_IT_Consulting,
+  initiative_crm_france_logo,
   memorialkepper,
   petpals,
   weenfr,
@@ -61,7 +62,7 @@ const services: TService[] = [
     icon: web,
   },
   {
-    title: 'React Developer',
+    title: 'Frontend Developer',
     icon: mobile,
   },
   {
@@ -131,11 +132,11 @@ const technologies: TTechnology[] = [
 
 const experiences: TExperience[] = [
   {
-    title: 'Web Developer',
-    companyName: 'Biggle',
-    icon: biggle_logo,
+    title: 'Junior Web Developer',
+    companyName: 'Illumine IT Consulting',
+    icon: Illumine_IT_Consulting,
     iconBg: '#383E56',
-    date: 'May 2013 - Feb 2017',
+    date: 'Feb 2015 - Dec 2016',
     points: [
       'Maintained high-level experience in React, Angular and state management strategies, including Redux and NgRx.',
       'Incorporated chat libraries like Chart.js and D3.js to visualize investment data and analytics.',
@@ -144,11 +145,11 @@ const experiences: TExperience[] = [
     ],
   },
   {
-    title: 'Frontend Developer',
-    companyName: 'BlueSoft',
-    icon: bluesoft_logo,
+    title: 'Web Developer',
+    companyName: 'InTTrust S.A',
+    icon: InTTrust,
     iconBg: '#E6DEDD',
-    date: 'Feb 2017 - Aug 2022',
+    date: 'Jan 2017 - Dec 2021',
     points: [
       'Designed dynamic and multi-browser compatible pages using HTML5, CSS3, SASS, React.js, and Angular.',
       'Collaborated with cross-functional teams including designers, backend developers, and product managers to define project requirements and deliverables.',
@@ -158,10 +159,24 @@ const experiences: TExperience[] = [
   },
   {
     title: 'Full Stack Developer',
-    companyName: 'Symfa',
-    icon: symfa_logo,
+    companyName: 'Initiative CRM',
+    icon: initiative_crm_france_logo,
     iconBg: '#383E56',
-    date: 'Aug 2022 - Apr 2024',
+    date: 'Feb 2022 - Apr 2023',
+    points: [
+      'Led collaborative efforts in designing, developing, and deploying fullstack web applications using React, Angular, Vue.js for the frontend, and Node.js, .Net for the backend.',
+      'Implemented secure authentication and authorization with ASP.NET Identity while optimizing SQL Server databases using Entity Framework Core for performance and data integrity.',
+      'Conducted performance optimization techniques including code splitting, lazy loading, and image optimization to enhance website speed and user experience.',
+      'leveraged Three.js to create immersive 3D web experiences, skillfully manipulating models, implementing shaders, and optimizing performance for seamless rendering across platforms.',
+    ],
+  },
+
+  {
+    title: 'Senior Software Engineer',
+    companyName: 'Athens Technology Center',
+    icon: athens_technology_center_logo,
+    iconBg: '#383E56',
+    date: 'May 2023 - Jan 2024',
     points: [
       'Led collaborative efforts in designing, developing, and deploying fullstack web applications using React, Angular, Vue.js for the frontend, and Node.js, .Net for the backend.',
       'Implemented secure authentication and authorization with ASP.NET Identity while optimizing SQL Server databases using Entity Framework Core for performance and data integrity.',
